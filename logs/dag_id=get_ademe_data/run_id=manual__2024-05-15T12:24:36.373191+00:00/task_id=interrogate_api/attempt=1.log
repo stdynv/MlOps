@@ -1,0 +1,28 @@
+[2024-05-15T12:24:41.985+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_ademe_data.interrogate_api manual__2024-05-15T12:24:36.373191+00:00 [queued]>
+[2024-05-15T12:24:42.005+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_ademe_data.interrogate_api manual__2024-05-15T12:24:36.373191+00:00 [queued]>
+[2024-05-15T12:24:42.006+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-15T12:24:42.067+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): interrogate_api> on 2024-05-15 12:24:36.373191+00:00
+[2024-05-15T12:24:42.097+0000] {standard_task_runner.py:60} INFO - Started process 2985 to run task
+[2024-05-15T12:24:42.136+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'get_ademe_data', 'interrogate_api', 'manual__2024-05-15T12:24:36.373191+00:00', '--job-id', '315', '--raw', '--subdir', 'DAGS_FOLDER/load.py', '--cfg-path', '/tmp/tmpi0pci0xc']
+[2024-05-15T12:24:42.144+0000] {standard_task_runner.py:88} INFO - Job 315: Subtask interrogate_api
+[2024-05-15T12:24:42.282+0000] {task_command.py:423} INFO - Running <TaskInstance: get_ademe_data.interrogate_api manual__2024-05-15T12:24:36.373191+00:00 [running]> on host 583e99962ff2
+[2024-05-15T12:24:42.539+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='***@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='get_ademe_data' AIRFLOW_CTX_TASK_ID='interrogate_api' AIRFLOW_CTX_EXECUTION_DATE='2024-05-15T12:24:36.373191+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-15T12:24:36.373191+00:00'
+[2024-05-15T12:24:42.699+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/load.py", line 62, in interrogate_api
+    response.raise_for_status()  # This will raise an HTTPError if the HTTP request returned an unsuccessful status code.
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://data.ademe.fr/data-fair/api/v1/datasets/dpe-v2-logements-neufs/lines?size=200&sort=Date_visite_diagnostiqueur&format=json&after=1625097600000%2C76510%2C473112&size=200&sort=Date_visite_diagnostiqueur&format=json&after=1625097600000%2C60011%2C992245
+[2024-05-15T12:24:42.719+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=get_ademe_data, task_id=interrogate_api, execution_date=20240515T122436, start_date=20240515T122441, end_date=20240515T122442
+[2024-05-15T12:24:42.752+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 315 for task interrogate_api (400 Client Error: Bad Request for url: https://data.ademe.fr/data-fair/api/v1/datasets/dpe-v2-logements-neufs/lines?size=200&sort=Date_visite_diagnostiqueur&format=json&after=1625097600000%2C76510%2C473112&size=200&sort=Date_visite_diagnostiqueur&format=json&after=1625097600000%2C60011%2C992245; 2985)
+[2024-05-15T12:24:42.774+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-15T12:24:42.826+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

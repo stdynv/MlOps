@@ -1,0 +1,15 @@
+[2024-05-15T11:21:08.188+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_ademe_data.interrogate_api manual__2024-05-15T11:21:00.929237+00:00 [queued]>
+[2024-05-15T11:21:08.212+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_ademe_data.interrogate_api manual__2024-05-15T11:21:00.929237+00:00 [queued]>
+[2024-05-15T11:21:08.213+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-15T11:21:08.255+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): interrogate_api> on 2024-05-15 11:21:00.929237+00:00
+[2024-05-15T11:21:08.272+0000] {standard_task_runner.py:60} INFO - Started process 1986 to run task
+[2024-05-15T11:21:08.286+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'get_ademe_data', 'interrogate_api', 'manual__2024-05-15T11:21:00.929237+00:00', '--job-id', '282', '--raw', '--subdir', 'DAGS_FOLDER/load.py', '--cfg-path', '/tmp/tmpq5oqp1cp']
+[2024-05-15T11:21:08.297+0000] {standard_task_runner.py:88} INFO - Job 282: Subtask interrogate_api
+[2024-05-15T11:21:08.441+0000] {task_command.py:423} INFO - Running <TaskInstance: get_ademe_data.interrogate_api manual__2024-05-15T11:21:00.929237+00:00 [running]> on host 583e99962ff2
+[2024-05-15T11:21:08.710+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='***@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='get_ademe_data' AIRFLOW_CTX_TASK_ID='interrogate_api' AIRFLOW_CTX_EXECUTION_DATE='2024-05-15T11:21:00.929237+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-15T11:21:00.929237+00:00'
+[2024-05-15T11:21:08.762+0000] {load.py:72} INFO - Fetching data from: https://data.ademe.fr/data-fair/api/v1/datasets/dpe-v2-logements-neufs/lines?size=200&sort=Date_visite_diagnostiqueur&format=json&after=1625097600000%2C76510%2C473112
+[2024-05-15T11:21:08.943+0000] {load.py:109} ERROR - Error fetching data: 400 Client Error: Bad Request for url: https://data.ademe.fr/data-fair/api/v1/datasets/dpe-v2-logements-neufs/lines?size=200&sort=Date_visite_diagnostiqueur&format=json&after=1625097600000%2C76510%2C473112&size=200&sort=Date_visite_diagnostiqueur&format=json&after=1625097600000%2C60011%2C992245
+[2024-05-15T11:21:08.960+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-05-15T11:21:09.019+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=get_ademe_data, task_id=interrogate_api, execution_date=20240515T112100, start_date=20240515T112108, end_date=20240515T112109
+[2024-05-15T11:21:09.112+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-15T11:21:09.171+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

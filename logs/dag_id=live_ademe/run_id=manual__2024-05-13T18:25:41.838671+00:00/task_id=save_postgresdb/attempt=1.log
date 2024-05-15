@@ -1,0 +1,50 @@
+[2024-05-13T18:25:47.352+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: live_ademe.save_postgresdb manual__2024-05-13T18:25:41.838671+00:00 [queued]>
+[2024-05-13T18:25:47.363+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: live_ademe.save_postgresdb manual__2024-05-13T18:25:41.838671+00:00 [queued]>
+[2024-05-13T18:25:47.364+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-13T18:25:47.383+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): save_postgresdb> on 2024-05-13 18:25:41.838671+00:00
+[2024-05-13T18:25:47.393+0000] {standard_task_runner.py:60} INFO - Started process 25451 to run task
+[2024-05-13T18:25:47.400+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'live_ademe', 'save_postgresdb', 'manual__2024-05-13T18:25:41.838671+00:00', '--job-id', '131', '--raw', '--subdir', 'DAGS_FOLDER/load.py', '--cfg-path', '/tmp/tmpclb8ljen']
+[2024-05-13T18:25:47.404+0000] {standard_task_runner.py:88} INFO - Job 131: Subtask save_postgresdb
+[2024-05-13T18:25:47.490+0000] {task_command.py:423} INFO - Running <TaskInstance: live_ademe.save_postgresdb manual__2024-05-13T18:25:41.838671+00:00 [running]> on host 86724742ac03
+[2024-05-13T18:25:47.601+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='***@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='live_ademe' AIRFLOW_CTX_TASK_ID='save_postgresdb' AIRFLOW_CTX_EXECUTION_DATE='2024-05-13T18:25:41.838671+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-13T18:25:41.838671+00:00'
+[2024-05-13T18:25:47.604+0000] {load.py:118} INFO - openning result file
+[2024-05-13T18:25:47.619+0000] {load.py:123} INFO - dataframe creation
+[2024-05-13T18:25:47.632+0000] {load.py:127} INFO - dataframe creation
+[2024-05-13T18:25:47.635+0000] {load.py:130} INFO - ['conso_chauffage_depensier_e_finale', 'emission_ges_ecs', 'type_energie_n_1', 'nom_commune_ban', 'emission_ges_chauffage', 'date_reception_dpe', 'coût_ecs_energie_n_1', 'conso_ecs_e_finale', 'coût_total_5_usages', 'emission_ges_5_usages', 'code_postal_ban', 'conso_eclairage_e_finale', 'coût_refroidissement_depensier', 'date_fin_validite_dpe', 'coordonnee_cartographique_x_ban', 'nombre_niveau_logement', 'emission_ges_refroidissement_depensier', 'type_batiment', 'conso_5_usages_par_m2_e_primaire', 'coût_refroidissement', 'ubat_w_m2_k', 'coût_ecs_depensier', 'coût_chauffage', 'emission_ges_auxiliaires', 'emission_ges_5_usages_par_m2', 'emission_ges_eclairage', 'dpe_geopoint', 'conso_ecs_depensier_e_primaire', 'conso_refroidissement_depensier_e_finale', 'conso_ecs_depensier_e_finale', 'adresse_ban', 'version_dpe', 'date_visite_diagnostiqueur', 'coût_ecs', 'nombre_niveau_immeuble', 'surface_habitable_immeuble', 'coût_eclairage', 'date_etablissement_dpe', 'qualite_isolation_enveloppe', 'emission_ges_chauffage_depensier', 'n_dpe', 'conso_refroidissement_e_finale', 'conso_chauffage_e_primaire', 'appartement_non_visite_0_1', 'adresse_brute', 'conso_eclairage_e_primaire', 'conso_ecs_e_primaire', 'qualite_isolation_menuiseries', 'qualite_isolation_murs', 'emission_ges_5_usages_energie_n_1', 'etiquette_ges', 'conso_5_usages_e_finale_energie_n_1', 'statut_geocodage', 'conso_auxiliaires_e_primaire', 'nombre_appartement', 'conso_auxiliaires_e_finale', 'conso_chauffage_e_finale', 'coût_chauffage_depensier', 'modele_dpe', 'etiquette_dpe', 'conso_refroidissement_depensier_e_primaire', 'nom_commune_brut', 'conso_5_usages_e_finale', 'n_departement_ban', 'conso_refroidissement_e_primaire', 'coût_chauffage_energie_n_1', 'dpe_i', 'methode_application_dpe', 'n_region_ban', 'qualite_isolation_plancher_bas', 'conso_5_usages_m2_e_finale', 'hauteur_sous-plafond', 'identifiant_ban', 'surface_habitable_logement', 'code_postal_brut', 'coût_auxiliaires', 'coordonnee_cartographique_y_ban', 'dpe_rand', 'conso_chauffage_depensier_e_primaire', 'emission_ges_ecs_depensier', 'code_insee_ban', 'score_ban', 'emission_ges_refroidissement', 'conso_5_usages_e_primaire', 'dpe_score', 'dpe_id', 'n_voie_ban', 'invariant_fiscal_logement', 'nom_rue_ban', 'zone_climatique_', 'categorie_enr', 'n_etage_appartement', 'classe_altitude', 'n_dpe_remplace', 'complement_d_adresse_logement', 'qualite_isolation_plancher_haut_comble_amenage', 'presence_brasseur_air_0_1', 'protection_solaire_exterieure_0_1', 'logement_traversant_0_1', 'isolation_toiture_0_1', 'nom_residence', 'indicateur_confort_ete', 'type_installation_ecs_general', 'type_installation_chauffage', 'typologie_logement', 'position_logement_dans_immeuble', 'type_energie_principale_chauffage', 'type_energie_n_2', 'coût_ecs_energie_n_2', 'emission_ges_5_usages_energie_n_2', 'coût_chauffage_energie_n_2']
+[2024-05-13T18:25:47.656+0000] {load.py:132} INFO - dataframe cleaning
+[2024-05-13T18:25:47.700+0000] {load.py:136} INFO - dataframe storing
+[2024-05-13T18:25:47.706+0000] {warnings.py:109} WARNING - /opt/***/dags/load.py:138: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  data.loc[i, "payload"] = json.dumps(dict(d))
+
+[2024-05-13T18:25:48.321+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: ('n_dpe', 'payload')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/load.py", line 140, in save_postgresdb
+    print(data['n_dpe','payload'])
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: ('n_dpe', 'payload')
+[2024-05-13T18:25:48.382+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=live_ademe, task_id=save_postgresdb, execution_date=20240513T182541, start_date=20240513T182547, end_date=20240513T182548
+[2024-05-13T18:25:48.483+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 131 for task save_postgresdb (('n_dpe', 'payload'); 25451)
+[2024-05-13T18:25:48.540+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-13T18:25:48.575+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

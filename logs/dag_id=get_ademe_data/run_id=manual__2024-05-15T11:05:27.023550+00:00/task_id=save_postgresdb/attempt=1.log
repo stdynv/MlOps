@@ -1,0 +1,17 @@
+[2024-05-15T11:05:34.787+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_ademe_data.save_postgresdb manual__2024-05-15T11:05:27.023550+00:00 [queued]>
+[2024-05-15T11:05:34.808+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_ademe_data.save_postgresdb manual__2024-05-15T11:05:27.023550+00:00 [queued]>
+[2024-05-15T11:05:34.809+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-15T11:05:34.845+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): save_postgresdb> on 2024-05-15 11:05:27.023550+00:00
+[2024-05-15T11:05:34.858+0000] {standard_task_runner.py:60} INFO - Started process 1744 to run task
+[2024-05-15T11:05:34.873+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'get_ademe_data', 'save_postgresdb', 'manual__2024-05-15T11:05:27.023550+00:00', '--job-id', '274', '--raw', '--subdir', 'DAGS_FOLDER/load.py', '--cfg-path', '/tmp/tmptcp2c4_4']
+[2024-05-15T11:05:34.879+0000] {standard_task_runner.py:88} INFO - Job 274: Subtask save_postgresdb
+[2024-05-15T11:05:35.029+0000] {task_command.py:423} INFO - Running <TaskInstance: get_ademe_data.save_postgresdb manual__2024-05-15T11:05:27.023550+00:00 [running]> on host 583e99962ff2
+[2024-05-15T11:05:35.286+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='***@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='get_ademe_data' AIRFLOW_CTX_TASK_ID='save_postgresdb' AIRFLOW_CTX_EXECUTION_DATE='2024-05-15T11:05:27.023550+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-15T11:05:27.023550+00:00'
+[2024-05-15T11:05:35.869+0000] {warnings.py:109} WARNING - /opt/***/dags/load.py:124: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df['payload'] = df.apply(lambda row: json.dumps(row.to_dict()), axis=1)
+
+[2024-05-15T11:05:37.035+0000] {load.py:130} INFO - Data successfully stored to the database.
+[2024-05-15T11:05:37.041+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-05-15T11:05:37.079+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=get_ademe_data, task_id=save_postgresdb, execution_date=20240515T110527, start_date=20240515T110534, end_date=20240515T110537
+[2024-05-15T11:05:37.184+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-15T11:05:37.286+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

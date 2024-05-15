@@ -1,0 +1,25 @@
+[2024-05-15T00:00:32.771+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ademe_models.promote_model_task scheduled__2024-05-14T00:00:00+00:00 [queued]>
+[2024-05-15T00:00:33.077+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ademe_models.promote_model_task scheduled__2024-05-14T00:00:00+00:00 [queued]>
+[2024-05-15T00:00:33.078+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-05-15T00:00:33.096+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): promote_model_task> on 2024-05-14 00:00:00+00:00
+[2024-05-15T00:00:33.110+0000] {standard_task_runner.py:60} INFO - Started process 9875 to run task
+[2024-05-15T00:00:33.118+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'ademe_models', 'promote_model_task', 'scheduled__2024-05-14T00:00:00+00:00', '--job-id', '227', '--raw', '--subdir', 'DAGS_FOLDER/predict.py', '--cfg-path', '/tmp/tmpwxhcmspu']
+[2024-05-15T00:00:33.120+0000] {standard_task_runner.py:88} INFO - Job 227: Subtask promote_model_task
+[2024-05-15T00:00:33.193+0000] {task_command.py:423} INFO - Running <TaskInstance: ademe_models.promote_model_task scheduled__2024-05-14T00:00:00+00:00 [running]> on host 86724742ac03
+[2024-05-15T00:00:33.293+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ademe_models' AIRFLOW_CTX_TASK_ID='promote_model_task' AIRFLOW_CTX_EXECUTION_DATE='2024-05-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-14T00:00:00+00:00'
+[2024-05-15T00:00:33.413+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/mlflow/store/artifact/utils/models.py:32: FutureWarning: ``mlflow.tracking.client.MlflowClient.get_latest_versions`` is deprecated since 2.9.0. Model registry stages will be removed in a future major release. To learn more about the deprecation of model registry stages, see our migration guide here: https://mlflow.org/docs/2.12.1/model-registry.html#migrating-from-stages
+  latest = client.get_latest_versions(name, None if stage is None else [stage])
+
+[2024-05-15T00:00:33.711+0000] {logging_mixin.py:188} INFO - 	 challenger_precision: 0.64
+[2024-05-15T00:00:33.712+0000] {logging_mixin.py:188} INFO - 	 challenger_recall: 0.62
+[2024-05-15T00:00:33.713+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/mlflow/store/artifact/utils/models.py:32: FutureWarning: ``mlflow.tracking.client.MlflowClient.get_latest_versions`` is deprecated since 2.9.0. Model registry stages will be removed in a future major release. To learn more about the deprecation of model registry stages, see our migration guide here: https://mlflow.org/docs/2.12.1/model-registry.html#migrating-from-stages
+  latest = client.get_latest_versions(name, None if stage is None else [stage])
+
+[2024-05-15T00:00:33.949+0000] {logging_mixin.py:188} INFO - 	 champion_precision: 0.64
+[2024-05-15T00:00:33.950+0000] {logging_mixin.py:188} INFO - 	 champion_recall: 0.62
+[2024-05-15T00:00:33.950+0000] {logging_mixin.py:188} INFO - 0.6367064230659435 < 0.6367064230659435
+[2024-05-15T00:00:33.950+0000] {logging_mixin.py:188} INFO - champion remains undefeated 
+[2024-05-15T00:00:33.951+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-05-15T00:00:33.965+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=ademe_models, task_id=promote_model_task, execution_date=20240514T000000, start_date=20240515T000032, end_date=20240515T000033
+[2024-05-15T00:00:34.026+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-15T00:00:34.051+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

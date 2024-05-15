@@ -1,0 +1,29 @@
+[2024-04-26T20:05:33.548+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ademe_data.check_environment_setup manual__2024-04-26T20:05:30.124730+00:00 [queued]>
+[2024-04-26T20:05:33.565+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ademe_data.check_environment_setup manual__2024-04-26T20:05:30.124730+00:00 [queued]>
+[2024-04-26T20:05:33.565+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-26T20:05:33.639+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): check_environment_setup> on 2024-04-26 20:05:30.124730+00:00
+[2024-04-26T20:05:33.648+0000] {standard_task_runner.py:60} INFO - Started process 6751 to run task
+[2024-04-26T20:05:33.668+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'ademe_data', 'check_environment_setup', 'manual__2024-04-26T20:05:30.124730+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/load_data.py', '--cfg-path', '/tmp/tmpxwpm8vf4']
+[2024-04-26T20:05:33.674+0000] {standard_task_runner.py:88} INFO - Job 7: Subtask check_environment_setup
+[2024-04-26T20:05:33.829+0000] {task_command.py:423} INFO - Running <TaskInstance: ademe_data.check_environment_setup manual__2024-04-26T20:05:30.124730+00:00 [running]> on host 86724742ac03
+[2024-04-26T20:05:34.045+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='yassinemed.essamadi@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ademe_data' AIRFLOW_CTX_TASK_ID='check_environment_setup' AIRFLOW_CTX_EXECUTION_DATE='2024-04-26T20:05:30.124730+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-26T20:05:30.124730+00:00'
+[2024-04-26T20:05:34.049+0000] {load_data.py:50} INFO - ----------------------------------------
+[2024-04-26T20:05:34.049+0000] {load_data.py:51} INFO - [info logger] cwd: /opt/***
+[2024-04-26T20:05:34.050+0000] {load_data.py:52} INFO - [info logger] URL_FILE: ~/***/data/api/url.json
+[2024-04-26T20:05:34.050+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/load_data.py", line 53, in check_environment_setup
+    assert os.path.isfile(URL_FILE)
+AssertionError
+[2024-04-26T20:05:34.064+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=ademe_data, task_id=check_environment_setup, execution_date=20240426T200530, start_date=20240426T200533, end_date=20240426T200534
+[2024-04-26T20:05:34.086+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 7 for task check_environment_setup (; 6751)
+[2024-04-26T20:05:34.127+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-04-26T20:05:34.173+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

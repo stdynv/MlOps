@@ -1,0 +1,18 @@
+[2024-05-14T11:46:19.508+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ademe_models.create_champion_task manual__2024-05-14T11:45:51.847382+00:00 [queued]>
+[2024-05-14T11:46:19.832+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ademe_models.create_champion_task manual__2024-05-14T11:45:51.847382+00:00 [queued]>
+[2024-05-14T11:46:19.832+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-05-14T11:46:19.857+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): create_champion_task> on 2024-05-14 11:45:51.847382+00:00
+[2024-05-14T11:46:19.873+0000] {standard_task_runner.py:60} INFO - Started process 40469 to run task
+[2024-05-14T11:46:19.882+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'ademe_models', 'create_champion_task', 'manual__2024-05-14T11:45:51.847382+00:00', '--job-id', '212', '--raw', '--subdir', 'DAGS_FOLDER/predict.py', '--cfg-path', '/tmp/tmp2vxdbpsw']
+[2024-05-14T11:46:19.885+0000] {standard_task_runner.py:88} INFO - Job 212: Subtask create_champion_task
+[2024-05-14T11:46:19.965+0000] {task_command.py:423} INFO - Running <TaskInstance: ademe_models.create_champion_task manual__2024-05-14T11:45:51.847382+00:00 [running]> on host 86724742ac03
+[2024-05-14T11:46:20.081+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ademe_models' AIRFLOW_CTX_TASK_ID='create_champion_task' AIRFLOW_CTX_EXECUTION_DATE='2024-05-14T11:45:51.847382+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-14T11:45:51.847382+00:00'
+[2024-05-14T11:46:20.136+0000] {logging_mixin.py:188} INFO - champion model not found, promoting challenger to champion
+[2024-05-14T11:46:20.187+0000] {warnings.py:109} WARNING - /opt/***/dags/predict.py:233: FutureWarning: ``mlflow.tracking.client.MlflowClient.transition_model_version_stage`` is deprecated since 2.9.0. Model registry stages will be removed in a future major release. To learn more about the deprecation of model registry stages, see our migration guide here: https://mlflow.org/docs/2.12.1/model-registry.html#migrating-from-stages
+  client.transition_model_version_stage(
+
+[2024-05-14T11:46:20.214+0000] {logging_mixin.py:188} INFO - [<ModelVersion: aliases=[], creation_timestamp=1715687180181, current_stage='Staging', description='', last_updated_timestamp=1715687180194, name='dpe_champion', run_id='44b5d71c2db94cb3a97a8ff9259fe451', run_link='', source='models:/dpe_challenger/1', status='READY', status_message='', tags={}, user_id='', version='1'>]
+[2024-05-14T11:46:20.215+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-05-14T11:46:20.230+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=ademe_models, task_id=create_champion_task, execution_date=20240514T114551, start_date=20240514T114619, end_date=20240514T114620
+[2024-05-14T11:46:20.296+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-14T11:46:20.330+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

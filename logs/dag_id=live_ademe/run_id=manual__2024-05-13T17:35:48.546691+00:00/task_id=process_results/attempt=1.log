@@ -1,0 +1,26 @@
+[2024-05-13T17:35:56.665+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: live_ademe.process_results manual__2024-05-13T17:35:48.546691+00:00 [queued]>
+[2024-05-13T17:35:56.676+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: live_ademe.process_results manual__2024-05-13T17:35:48.546691+00:00 [queued]>
+[2024-05-13T17:35:56.677+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-13T17:35:56.695+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): process_results> on 2024-05-13 17:35:48.546691+00:00
+[2024-05-13T17:35:56.705+0000] {standard_task_runner.py:60} INFO - Started process 24670 to run task
+[2024-05-13T17:35:56.712+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'live_ademe', 'process_results', 'manual__2024-05-13T17:35:48.546691+00:00', '--job-id', '107', '--raw', '--subdir', 'DAGS_FOLDER/load.py', '--cfg-path', '/tmp/tmphocf0reu']
+[2024-05-13T17:35:56.716+0000] {standard_task_runner.py:88} INFO - Job 107: Subtask process_results
+[2024-05-13T17:35:56.784+0000] {task_command.py:423} INFO - Running <TaskInstance: live_ademe.process_results manual__2024-05-13T17:35:48.546691+00:00 [running]> on host 86724742ac03
+[2024-05-13T17:35:56.927+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='***@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='live_ademe' AIRFLOW_CTX_TASK_ID='process_results' AIRFLOW_CTX_EXECUTION_DATE='2024-05-13T17:35:48.546691+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-13T17:35:48.546691+00:00'
+[2024-05-13T17:35:56.966+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/load.py", line 106, in process_results
+    with open(data_filename, "w", encoding="utf-8") as file:
+PermissionError: [Errno 13] Permission denied: '/opt/airflow/data/ademe-dpe-tertiaire/data_1715621756.json'
+[2024-05-13T17:35:56.982+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=live_ademe, task_id=process_results, execution_date=20240513T173548, start_date=20240513T173556, end_date=20240513T173556
+[2024-05-13T17:35:57.009+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 107 for task process_results ([Errno 13] Permission denied: '/opt/airflow/data/ademe-dpe-tertiaire/data_1715621756.json'; 24670)
+[2024-05-13T17:35:57.045+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-13T17:35:57.080+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

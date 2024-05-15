@@ -1,0 +1,17 @@
+[2024-05-13T18:30:23.362+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: live_ademe.check_environment_setup manual__2024-05-13T18:30:21.781042+00:00 [queued]>
+[2024-05-13T18:30:23.373+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: live_ademe.check_environment_setup manual__2024-05-13T18:30:21.781042+00:00 [queued]>
+[2024-05-13T18:30:23.374+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-13T18:30:23.394+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): check_environment_setup> on 2024-05-13 18:30:21.781042+00:00
+[2024-05-13T18:30:23.405+0000] {standard_task_runner.py:60} INFO - Started process 25528 to run task
+[2024-05-13T18:30:23.412+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'live_ademe', 'check_environment_setup', 'manual__2024-05-13T18:30:21.781042+00:00', '--job-id', '135', '--raw', '--subdir', 'DAGS_FOLDER/load.py', '--cfg-path', '/tmp/tmplzi28fv_']
+[2024-05-13T18:30:23.417+0000] {standard_task_runner.py:88} INFO - Job 135: Subtask check_environment_setup
+[2024-05-13T18:30:23.500+0000] {task_command.py:423} INFO - Running <TaskInstance: live_ademe.check_environment_setup manual__2024-05-13T18:30:21.781042+00:00 [running]> on host 86724742ac03
+[2024-05-13T18:30:23.633+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='***@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='live_ademe' AIRFLOW_CTX_TASK_ID='check_environment_setup' AIRFLOW_CTX_EXECUTION_DATE='2024-05-13T18:30:21.781042+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-13T18:30:21.781042+00:00'
+[2024-05-13T18:30:23.636+0000] {load.py:26} INFO - ----------------------------------------
+[2024-05-13T18:30:23.636+0000] {load.py:27} INFO - [info logger] cwd: /opt/***
+[2024-05-13T18:30:23.636+0000] {load.py:29} INFO - [info logger] URL_FILE: /opt/***/data/api/url.json
+[2024-05-13T18:30:23.637+0000] {load.py:30} INFO - ----------------------------------------
+[2024-05-13T18:30:23.637+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-05-13T18:30:23.649+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=live_ademe, task_id=check_environment_setup, execution_date=20240513T183021, start_date=20240513T183023, end_date=20240513T183023
+[2024-05-13T18:30:23.709+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-13T18:30:23.746+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

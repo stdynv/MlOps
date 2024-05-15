@@ -1,0 +1,17 @@
+[2024-05-15T09:24:24.297+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_ademe_data.check_environment_setup manual__2024-05-15T09:24:20.710880+00:00 [queued]>
+[2024-05-15T09:24:24.307+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_ademe_data.check_environment_setup manual__2024-05-15T09:24:20.710880+00:00 [queued]>
+[2024-05-15T09:24:24.307+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-15T09:24:24.323+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): check_environment_setup> on 2024-05-15 09:24:20.710880+00:00
+[2024-05-15T09:24:24.334+0000] {standard_task_runner.py:60} INFO - Started process 188 to run task
+[2024-05-15T09:24:24.341+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'get_ademe_data', 'check_environment_setup', 'manual__2024-05-15T09:24:20.710880+00:00', '--job-id', '232', '--raw', '--subdir', 'DAGS_FOLDER/load.py', '--cfg-path', '/tmp/tmplt8q_0r8']
+[2024-05-15T09:24:24.346+0000] {standard_task_runner.py:88} INFO - Job 232: Subtask check_environment_setup
+[2024-05-15T09:24:24.443+0000] {task_command.py:423} INFO - Running <TaskInstance: get_ademe_data.check_environment_setup manual__2024-05-15T09:24:20.710880+00:00 [running]> on host 583e99962ff2
+[2024-05-15T09:24:24.904+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='***@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='get_ademe_data' AIRFLOW_CTX_TASK_ID='check_environment_setup' AIRFLOW_CTX_EXECUTION_DATE='2024-05-15T09:24:20.710880+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-15T09:24:20.710880+00:00'
+[2024-05-15T09:24:24.906+0000] {load.py:43} INFO - ----------------------------------------
+[2024-05-15T09:24:24.907+0000] {load.py:44} INFO - [info logger] cwd: /opt/***
+[2024-05-15T09:24:24.907+0000] {load.py:46} INFO - [info logger] URL_FILE: /opt/***/data/api/url.json
+[2024-05-15T09:24:24.907+0000] {load.py:47} INFO - ----------------------------------------
+[2024-05-15T09:24:24.908+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-05-15T09:24:24.924+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=get_ademe_data, task_id=check_environment_setup, execution_date=20240515T092420, start_date=20240515T092424, end_date=20240515T092424
+[2024-05-15T09:24:24.996+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-15T09:24:25.036+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check
