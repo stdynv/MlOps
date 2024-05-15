@@ -1,0 +1,34 @@
+[2024-05-15T14:45:04.676+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ademe_transform_data.drop_duplicates_task scheduled__2024-05-15T14:42:00+00:00 [queued]>
+[2024-05-15T14:45:04.688+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ademe_transform_data.drop_duplicates_task scheduled__2024-05-15T14:42:00+00:00 [queued]>
+[2024-05-15T14:45:04.689+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-05-15T14:45:04.704+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): drop_duplicates_task> on 2024-05-15 14:42:00+00:00
+[2024-05-15T14:45:04.715+0000] {standard_task_runner.py:60} INFO - Started process 5254 to run task
+[2024-05-15T14:45:04.722+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'ademe_transform_data', 'drop_duplicates_task', 'scheduled__2024-05-15T14:42:00+00:00', '--job-id', '420', '--raw', '--subdir', 'DAGS_FOLDER/transform.py', '--cfg-path', '/tmp/tmpn58s848u']
+[2024-05-15T14:45:04.727+0000] {standard_task_runner.py:88} INFO - Job 420: Subtask drop_duplicates_task
+[2024-05-15T14:45:04.801+0000] {task_command.py:423} INFO - Running <TaskInstance: ademe_transform_data.drop_duplicates_task scheduled__2024-05-15T14:42:00+00:00 [running]> on host 583e99962ff2
+[2024-05-15T14:45:04.932+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='your-email@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ademe_transform_data' AIRFLOW_CTX_TASK_ID='drop_duplicates_task' AIRFLOW_CTX_EXECUTION_DATE='2024-05-15T14:42:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-15T14:42:00+00:00'
+[2024-05-15T14:45:04.995+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/transform.py", line 65, in drop_duplicates
+    db.execute(query)
+  File "/opt/airflow/dags/db_utils.py", line 84, in execute
+    cursor.execute(query_)
+psycopg2.errors.UndefinedColumn: column "id" does not exist
+LINE 6: ...e, ROW_NUMBER() OVER (PARTITION BY n_dpe ORDER BY id DESC) A...
+                                                             ^
+
+[2024-05-15T14:45:05.007+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=ademe_transform_data, task_id=drop_duplicates_task, execution_date=20240515T144200, start_date=20240515T144504, end_date=20240515T144505
+[2024-05-15T14:45:05.036+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 420 for task drop_duplicates_task (column "id" does not exist
+LINE 6: ...e, ROW_NUMBER() OVER (PARTITION BY n_dpe ORDER BY id DESC) A...
+                                                             ^
+; 5254)
+[2024-05-15T14:45:05.059+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-15T14:45:05.098+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

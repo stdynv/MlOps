@@ -15450,3 +15450,1063 @@ IndentationError: unindent does not match any outer indentation level
 [2024-05-15T14:10:09.808+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:10:09.806+0000] {dag.py:3047} INFO - Sync 1 DAGs
 [2024-05-15T14:10:09.856+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:10:09.856+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
 [2024-05-15T14:10:09.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 3.833 seconds
+[2024-05-15T14:10:40.214+0000] {processor.py:161} INFO - Started process (PID=8568) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:10:40.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:10:40.217+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:10:40.216+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:10:44.365+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:10:44.366+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:10:44.366+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:10:45.220+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:10:45.330+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:10:45.329+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:10:45.421+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:10:45.421+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:10:45.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 5.284 seconds
+[2024-05-15T14:11:15.741+0000] {processor.py:161} INFO - Started process (PID=8585) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:11:15.743+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:11:15.745+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:11:15.745+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:11:19.331+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:11:19.332+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:11:19.333+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:11:19.790+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:11:19.835+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:11:19.834+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:11:19.883+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:11:19.882+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:11:19.934+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 4.203 seconds
+[2024-05-15T14:11:50.636+0000] {processor.py:161} INFO - Started process (PID=8606) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:11:50.638+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:11:50.640+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:11:50.639+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:11:53.202+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:11:53.203+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:11:53.203+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:11:53.638+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:11:53.683+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:11:53.681+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:11:53.730+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:11:53.729+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:11:53.773+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 3.143 seconds
+[2024-05-15T14:12:24.057+0000] {processor.py:161} INFO - Started process (PID=8621) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:12:24.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:12:24.061+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:12:24.060+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:12:26.038+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:12:26.039+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:12:26.039+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:12:26.564+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:12:26.617+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:12:26.616+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:12:26.661+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:12:26.661+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:12:26.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.642 seconds
+[2024-05-15T14:12:56.854+0000] {processor.py:161} INFO - Started process (PID=8636) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:12:56.856+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:12:56.858+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:12:56.857+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:12:59.018+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:12:59.019+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:12:59.019+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:12:59.327+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:12:59.361+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:12:59.360+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:12:59.391+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:12:59.390+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:12:59.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.578 seconds
+[2024-05-15T14:13:29.928+0000] {processor.py:161} INFO - Started process (PID=8650) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:13:29.930+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:13:29.932+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:13:29.931+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:13:31.875+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:13:31.875+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:13:31.876+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:13:32.152+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:13:32.185+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:13:32.184+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:13:32.214+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:13:32.214+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:13:32.240+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.318 seconds
+[2024-05-15T14:14:02.407+0000] {processor.py:161} INFO - Started process (PID=8666) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:14:02.409+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:14:02.411+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:14:02.410+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:14:04.343+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:14:04.344+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:14:04.344+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:14:04.626+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:14:04.660+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:14:04.659+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:14:04.693+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:14:04.692+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:14:04.731+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.330 seconds
+[2024-05-15T14:14:34.810+0000] {processor.py:161} INFO - Started process (PID=8682) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:14:34.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:14:34.814+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:14:34.813+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:14:36.759+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:14:36.760+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:14:36.760+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:14:37.115+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:14:37.152+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:14:37.151+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:14:37.183+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:14:37.183+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:14:37.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.410 seconds
+[2024-05-15T14:15:07.751+0000] {processor.py:161} INFO - Started process (PID=8697) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:15:07.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:15:07.755+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:15:07.754+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:15:10.066+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:15:10.067+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:15:10.067+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:15:10.441+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:15:10.474+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:15:10.473+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:15:10.501+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:15:10.500+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:15:10.523+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.778 seconds
+[2024-05-15T14:15:40.621+0000] {processor.py:161} INFO - Started process (PID=8714) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:15:40.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:15:40.625+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:15:40.625+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:15:42.775+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:15:42.776+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:15:42.776+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:15:43.056+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:15:43.091+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:15:43.090+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:15:43.119+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:15:43.119+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:15:43.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.532 seconds
+[2024-05-15T14:16:13.648+0000] {processor.py:161} INFO - Started process (PID=8729) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:16:13.650+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:16:13.652+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:16:13.652+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:16:15.800+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:16:15.801+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:16:15.801+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:16:16.229+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:16:16.271+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:16:16.269+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:16:16.315+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:16:16.314+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:16:16.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.716 seconds
+[2024-05-15T14:16:46.596+0000] {processor.py:161} INFO - Started process (PID=8744) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:16:46.599+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:16:46.601+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:16:46.600+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:16:50.118+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:16:50.119+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:16:50.119+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:16:50.555+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:16:50.589+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:16:50.588+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:16:50.620+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:16:50.619+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:16:50.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 4.060 seconds
+[2024-05-15T14:17:20.833+0000] {processor.py:161} INFO - Started process (PID=8767) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:17:20.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:17:20.840+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:17:20.839+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:17:23.896+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:17:23.897+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:17:23.897+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:17:24.347+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:17:24.388+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:17:24.387+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:17:24.427+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:17:24.426+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:17:24.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 3.650 seconds
+[2024-05-15T14:17:54.576+0000] {processor.py:161} INFO - Started process (PID=8782) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:17:54.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:17:54.579+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:17:54.579+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:17:57.329+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:17:57.330+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:17:57.330+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:17:57.845+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:17:57.886+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:17:57.885+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:17:57.923+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:17:57.922+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:17:57.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 3.386 seconds
+[2024-05-15T14:18:28.262+0000] {processor.py:161} INFO - Started process (PID=8797) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:18:28.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:18:28.265+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:18:28.264+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:18:30.511+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:18:30.512+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:18:30.512+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:18:31.039+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:18:31.089+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:18:31.087+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:18:31.136+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:18:31.135+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:18:31.224+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.969 seconds
+[2024-05-15T14:19:01.730+0000] {processor.py:161} INFO - Started process (PID=8813) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:19:01.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:19:01.733+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:19:01.733+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:19:03.675+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:19:03.676+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:19:03.676+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:19:03.978+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:19:04.013+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:19:04.012+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:19:04.046+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:19:04.045+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:19:04.089+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.365 seconds
+[2024-05-15T14:19:34.183+0000] {processor.py:161} INFO - Started process (PID=8828) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:19:34.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:19:34.186+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:19:34.186+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:19:36.078+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:19:36.079+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:19:36.079+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:19:36.463+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:19:36.507+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:19:36.506+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:19:36.548+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:19:36.547+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:19:36.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.404 seconds
+[2024-05-15T14:20:06.682+0000] {processor.py:161} INFO - Started process (PID=8843) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:20:06.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:20:06.685+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:20:06.685+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:20:09.027+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:20:09.028+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:20:09.028+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:20:09.320+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:20:09.355+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:20:09.354+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:20:09.387+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:20:09.386+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:20:09.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.746 seconds
+[2024-05-15T14:20:39.563+0000] {processor.py:161} INFO - Started process (PID=8860) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:20:39.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:20:39.567+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:20:39.567+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:20:41.721+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:20:41.721+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:20:41.721+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:20:42.034+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:20:42.070+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:20:42.069+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:20:42.101+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:20:42.101+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:20:42.142+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.587 seconds
+[2024-05-15T14:21:12.215+0000] {processor.py:161} INFO - Started process (PID=8875) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:21:12.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:21:12.219+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:21:12.218+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:21:14.281+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:21:14.282+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:21:14.282+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:21:14.573+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:21:14.609+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:21:14.607+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:21:14.643+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:21:14.642+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:21:14.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.464 seconds
+[2024-05-15T14:21:44.913+0000] {processor.py:161} INFO - Started process (PID=8890) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:21:44.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:21:44.916+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:21:44.916+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:21:46.895+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:21:46.895+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:21:46.896+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:21:47.159+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:21:47.192+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:21:47.191+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:21:47.220+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:21:47.220+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:21:47.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.344 seconds
+[2024-05-15T14:22:17.953+0000] {processor.py:161} INFO - Started process (PID=8905) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:22:17.957+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:22:17.959+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:22:17.958+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:22:19.963+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:22:19.963+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:22:19.963+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:22:20.231+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:22:20.268+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:22:20.267+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:22:20.297+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:22:20.297+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:22:20.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.380 seconds
+[2024-05-15T14:22:50.572+0000] {processor.py:161} INFO - Started process (PID=8920) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:22:50.574+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:22:50.576+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:22:50.575+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:22:52.514+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:22:52.514+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:22:52.514+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:22:52.797+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:22:52.827+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:22:52.827+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:22:52.854+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:22:52.853+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:22:52.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.315 seconds
+[2024-05-15T14:23:22.962+0000] {processor.py:161} INFO - Started process (PID=8942) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:23:22.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:23:22.965+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:23:22.965+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:23:24.849+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:23:24.850+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:23:24.851+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:23:25.244+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:23:25.276+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:23:25.275+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:23:25.307+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:23:25.307+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:23:25.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.378 seconds
+[2024-05-15T14:23:55.980+0000] {processor.py:161} INFO - Started process (PID=8957) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:23:55.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:23:55.984+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:23:55.983+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:23:58.040+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:23:58.041+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:23:58.041+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:23:58.298+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:23:58.329+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:23:58.328+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:23:58.356+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:23:58.355+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:23:58.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.408 seconds
+[2024-05-15T14:24:28.513+0000] {processor.py:161} INFO - Started process (PID=8972) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:24:28.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:24:28.517+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:24:28.516+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:24:30.584+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:24:30.584+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:24:30.584+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:24:30.841+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:24:30.872+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:24:30.871+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:24:30.903+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:24:30.902+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:24:30.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.426 seconds
+[2024-05-15T14:25:01.387+0000] {processor.py:161} INFO - Started process (PID=8988) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:25:01.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:25:01.391+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:25:01.390+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:25:03.248+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:25:03.249+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:25:03.249+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:25:03.583+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:25:03.629+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:25:03.628+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:25:03.666+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:25:03.666+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:25:03.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.314 seconds
+[2024-05-15T14:25:34.251+0000] {processor.py:161} INFO - Started process (PID=9003) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:25:34.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:25:34.255+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:25:34.254+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:25:36.637+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:25:36.639+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:25:36.639+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:25:36.904+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:25:36.937+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:25:36.936+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:25:36.963+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:25:36.963+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:25:36.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.741 seconds
+[2024-05-15T14:26:07.542+0000] {processor.py:161} INFO - Started process (PID=9020) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:26:07.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:26:07.546+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:26:07.546+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:26:09.507+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:26:09.508+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:26:09.508+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:26:09.768+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:26:09.799+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:26:09.798+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:26:09.827+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:26:09.827+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:26:09.850+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.314 seconds
+[2024-05-15T14:26:39.960+0000] {processor.py:161} INFO - Started process (PID=9036) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:26:39.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:26:39.964+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:26:39.963+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:26:41.855+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:26:41.856+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:26:41.856+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:26:42.120+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:26:42.151+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:26:42.150+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:26:42.176+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:26:42.175+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:26:42.197+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.245 seconds
+[2024-05-15T14:27:12.471+0000] {processor.py:161} INFO - Started process (PID=9051) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:27:12.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:27:12.475+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:27:12.474+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:27:14.411+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:27:14.412+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:27:14.412+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:27:14.844+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:27:14.888+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:27:14.885+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:27:14.929+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:27:14.929+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:27:14.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.496 seconds
+[2024-05-15T14:27:45.677+0000] {processor.py:161} INFO - Started process (PID=9066) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:27:45.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:27:45.681+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:27:45.680+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:27:48.621+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:27:48.621+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:27:48.622+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:27:48.904+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:27:48.935+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:27:48.934+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:27:48.964+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:27:48.963+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:27:48.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 3.341 seconds
+[2024-05-15T14:28:19.171+0000] {processor.py:161} INFO - Started process (PID=9084) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:28:19.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:28:19.179+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:28:19.178+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:28:22.067+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:28:22.068+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:28:22.068+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:28:22.361+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:28:22.392+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:28:22.391+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:28:22.423+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:28:22.422+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:28:22.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 3.292 seconds
+[2024-05-15T14:28:52.517+0000] {processor.py:161} INFO - Started process (PID=9099) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:28:52.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:28:52.521+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:28:52.520+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:28:55.584+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:28:55.585+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:28:55.585+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:28:56.027+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:28:56.075+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:28:56.071+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:28:56.117+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:28:56.116+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:28:56.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 3.641 seconds
+[2024-05-15T14:29:27.435+0000] {processor.py:161} INFO - Started process (PID=9121) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:29:27.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:29:27.439+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:29:27.438+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:29:31.136+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:29:31.138+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:29:31.139+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:29:31.734+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:29:31.808+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:29:31.806+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:29:31.907+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:29:31.907+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:29:31.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 4.518 seconds
+[2024-05-15T14:30:02.690+0000] {processor.py:161} INFO - Started process (PID=9137) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:30:02.705+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:30:02.714+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:30:02.713+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:30:06.278+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:30:06.279+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:30:06.279+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:30:07.031+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:30:07.114+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:30:07.112+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:30:07.183+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:30:07.182+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:30:07.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 4.584 seconds
+[2024-05-15T14:30:37.585+0000] {processor.py:161} INFO - Started process (PID=9152) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:30:37.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:30:37.588+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:30:37.588+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:30:39.364+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:30:39.364+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:30:39.364+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:30:39.691+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:30:39.726+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:30:39.725+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:30:39.752+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:30:39.752+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:30:39.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.209 seconds
+[2024-05-15T14:31:10.124+0000] {processor.py:161} INFO - Started process (PID=9167) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:31:10.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:31:10.127+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:31:10.127+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:31:11.833+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:31:11.834+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:31:11.834+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:31:12.094+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:31:12.126+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:31:12.125+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:31:12.153+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:31:12.153+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:31:12.177+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.059 seconds
+[2024-05-15T14:31:42.428+0000] {processor.py:161} INFO - Started process (PID=9182) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:31:42.429+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:31:42.431+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:31:42.430+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:31:44.124+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:31:44.125+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:31:44.125+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:31:44.482+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:31:44.529+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:31:44.527+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:31:44.566+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:31:44.565+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:31:44.602+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.180 seconds
+[2024-05-15T14:32:15.051+0000] {processor.py:161} INFO - Started process (PID=9197) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:32:15.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:32:15.054+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:32:15.054+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:32:16.868+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:32:16.869+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:32:16.869+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:32:17.155+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:32:17.190+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:32:17.189+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:32:17.221+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:32:17.220+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:32:17.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.204 seconds
+[2024-05-15T14:32:47.611+0000] {processor.py:161} INFO - Started process (PID=9211) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:32:47.613+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:32:47.615+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:32:47.614+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:32:49.370+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:32:49.370+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:32:49.371+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:32:49.670+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:32:49.703+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:32:49.702+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:32:49.736+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:32:49.735+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:32:49.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.164 seconds
+[2024-05-15T14:33:20.247+0000] {processor.py:161} INFO - Started process (PID=9226) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:33:20.249+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:33:20.250+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:33:20.250+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:33:22.191+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:33:22.192+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:33:22.192+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:33:22.555+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:33:22.590+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:33:22.587+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:33:22.618+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:33:22.618+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:33:22.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.402 seconds
+[2024-05-15T14:33:52.951+0000] {processor.py:161} INFO - Started process (PID=9243) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:33:52.953+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:33:52.955+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:33:52.954+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:33:55.541+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:33:55.542+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:33:55.542+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:33:55.800+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:33:55.831+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:33:55.830+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:33:55.858+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:33:55.857+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:33:55.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.946 seconds
+[2024-05-15T14:34:26.165+0000] {processor.py:161} INFO - Started process (PID=9264) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:34:26.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:34:26.170+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:34:26.169+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:34:28.894+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:34:28.895+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:34:28.895+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:34:29.349+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:34:29.392+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:34:29.391+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:34:29.433+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:34:29.433+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:34:29.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 3.316 seconds
+[2024-05-15T14:34:59.919+0000] {processor.py:161} INFO - Started process (PID=9279) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:34:59.921+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:34:59.922+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:34:59.922+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:35:02.557+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:35:02.564+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:35:02.564+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:35:03.078+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:35:03.124+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:35:03.123+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:35:03.166+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:35:03.166+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:35:03.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 3.288 seconds
+[2024-05-15T14:35:33.306+0000] {processor.py:161} INFO - Started process (PID=9294) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:35:33.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:35:33.309+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:35:33.308+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:35:35.286+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:35:35.287+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:35:35.287+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:35:35.732+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:35:35.777+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:35:35.776+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:35:35.820+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:35:35.820+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:35:35.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.564 seconds
+[2024-05-15T14:36:05.949+0000] {processor.py:161} INFO - Started process (PID=9311) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:36:05.950+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:36:05.952+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:36:05.951+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:36:07.575+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:36:07.576+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:36:07.576+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:36:07.834+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:36:07.872+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:36:07.871+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:36:07.897+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:36:07.897+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:36:07.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 1.977 seconds
+[2024-05-15T14:36:38.697+0000] {processor.py:161} INFO - Started process (PID=9326) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:36:38.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:36:38.700+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:36:38.699+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:36:40.489+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:36:40.489+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:36:40.490+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:36:40.770+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:36:40.801+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:36:40.800+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:36:40.826+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:36:40.826+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:36:40.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.158 seconds
+[2024-05-15T14:37:11.252+0000] {processor.py:161} INFO - Started process (PID=9341) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:37:11.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:37:11.256+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:37:11.255+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:37:12.915+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:37:12.915+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:37:12.915+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:37:13.171+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:37:13.202+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:37:13.201+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:37:13.231+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:37:13.231+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:37:13.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.016 seconds
+[2024-05-15T14:37:43.799+0000] {processor.py:161} INFO - Started process (PID=9356) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:37:43.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:37:43.802+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:37:43.802+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:37:45.581+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:37:45.582+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:37:45.582+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:37:45.881+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:37:45.914+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:37:45.913+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:37:45.941+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:37:45.941+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:37:45.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.188 seconds
+[2024-05-15T14:38:16.104+0000] {processor.py:161} INFO - Started process (PID=9371) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:38:16.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:38:16.107+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:38:16.107+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:38:17.769+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:38:17.770+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:38:17.770+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:38:18.023+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:38:18.054+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:38:18.053+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:38:18.083+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:38:18.082+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:38:18.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.009 seconds
+[2024-05-15T14:38:48.880+0000] {processor.py:161} INFO - Started process (PID=9385) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:38:48.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:38:48.884+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:38:48.883+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:38:50.688+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:38:50.689+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:38:50.689+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:38:51.034+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:38:51.135+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:38:51.134+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:38:51.175+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:38:51.175+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:38:51.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.337 seconds
+[2024-05-15T14:39:21.629+0000] {processor.py:161} INFO - Started process (PID=9400) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:39:21.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:39:21.633+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:39:21.632+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:39:23.755+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:39:23.756+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:39:23.756+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:39:24.011+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:39:24.043+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:39:24.041+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:39:24.070+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:39:24.069+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:39:24.094+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.472 seconds
+[2024-05-15T14:39:54.353+0000] {processor.py:161} INFO - Started process (PID=9417) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:39:54.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:39:54.356+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:39:54.356+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:39:56.241+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:39:56.242+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:39:56.242+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:39:56.602+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:39:56.637+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:39:56.636+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:39:56.670+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:39:56.670+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:39:56.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.358 seconds
+[2024-05-15T14:40:27.613+0000] {processor.py:161} INFO - Started process (PID=9439) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:40:27.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:40:27.616+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:40:27.616+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:40:29.404+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:40:29.405+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:40:29.405+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:40:29.665+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:40:29.697+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:40:29.696+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:40:29.723+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:40:29.722+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:40:29.749+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.142 seconds
+[2024-05-15T14:41:00.276+0000] {processor.py:161} INFO - Started process (PID=9454) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:41:00.278+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:41:00.280+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:41:00.279+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:41:02.103+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:41:02.104+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:41:02.104+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:41:02.375+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:41:02.410+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:41:02.407+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:41:02.442+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:41:02.442+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:41:02.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.207 seconds
+[2024-05-15T14:41:32.994+0000] {processor.py:161} INFO - Started process (PID=9469) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:41:32.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:41:32.997+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:41:32.996+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:41:34.784+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:41:34.785+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:41:34.786+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:41:35.107+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:41:35.140+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:41:35.140+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:41:35.171+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:41:35.170+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:41:35.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.214 seconds
+[2024-05-15T14:42:05.764+0000] {processor.py:161} INFO - Started process (PID=9484) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:42:05.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:42:05.767+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:42:05.767+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:42:07.666+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:42:07.666+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:42:07.667+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:42:07.957+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:42:07.989+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:42:07.988+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:42:08.016+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:42:08.016+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:42:08.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.282 seconds
+[2024-05-15T14:42:38.430+0000] {processor.py:161} INFO - Started process (PID=9499) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:42:38.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:42:38.433+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:42:38.433+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:42:40.074+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:42:40.075+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:42:40.075+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:42:40.329+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:42:40.365+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:42:40.364+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:42:40.397+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:42:40.397+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:42:40.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.002 seconds
+[2024-05-15T14:43:10.520+0000] {processor.py:161} INFO - Started process (PID=9515) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:43:10.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:43:10.523+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:43:10.523+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:43:12.641+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:43:12.642+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:43:12.642+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:43:12.916+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:43:12.947+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:43:12.946+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:43:12.971+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:43:12.971+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:43:12.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.484 seconds
+[2024-05-15T14:43:43.107+0000] {processor.py:161} INFO - Started process (PID=9532) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:43:43.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:43:43.110+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:43:43.110+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:43:44.749+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:43:44.749+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:43:44.750+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:43:45.031+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:43:45.071+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:43:45.070+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:43:45.104+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:43:45.103+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:43:45.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.034 seconds
+[2024-05-15T14:44:15.478+0000] {processor.py:161} INFO - Started process (PID=9547) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:44:15.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:44:15.483+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:44:15.482+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:44:17.390+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:44:17.391+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:44:17.391+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:44:17.693+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:44:17.728+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:44:17.727+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:44:17.762+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:44:17.761+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:44:17.793+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.324 seconds
+[2024-05-15T14:44:48.441+0000] {processor.py:161} INFO - Started process (PID=9562) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:44:48.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:44:48.445+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:44:48.444+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:44:50.224+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:44:50.225+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:44:50.225+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:44:50.488+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:44:50.518+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:44:50.517+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:44:50.544+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:44:50.543+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:44:50.574+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.139 seconds
+[2024-05-15T14:45:21.236+0000] {processor.py:161} INFO - Started process (PID=9577) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:45:21.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:45:21.241+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:45:21.240+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:45:23.098+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:45:23.098+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:45:23.099+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:45:23.469+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:45:23.515+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:45:23.514+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:45:23.556+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:45:23.556+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:45:23.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.363 seconds
+[2024-05-15T14:45:54.172+0000] {processor.py:161} INFO - Started process (PID=9592) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:45:54.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:45:54.176+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:45:54.176+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:45:56.991+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:45:56.992+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:45:56.993+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:45:57.276+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:45:57.311+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:45:57.310+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:45:57.344+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:45:57.344+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:45:57.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 3.517 seconds
+[2024-05-15T14:46:27.970+0000] {processor.py:161} INFO - Started process (PID=9609) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:46:27.972+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:46:27.973+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:46:27.973+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:46:30.854+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:46:30.855+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:46:30.855+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:46:31.240+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:46:31.282+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:46:31.280+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:46:31.316+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:46:31.316+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:46:31.343+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 3.381 seconds
+[2024-05-15T14:47:01.916+0000] {processor.py:161} INFO - Started process (PID=9630) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:47:01.919+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:47:01.920+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:47:01.920+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:47:04.541+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:47:04.542+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:47:04.542+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:47:04.986+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:47:05.035+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:47:05.034+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:47:05.082+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:47:05.082+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:47:05.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 3.217 seconds
+[2024-05-15T14:47:35.480+0000] {processor.py:161} INFO - Started process (PID=9645) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:47:35.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:47:35.484+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:47:35.483+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:47:38.918+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:47:38.919+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:47:38.919+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:47:39.343+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:47:39.388+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:47:39.387+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:47:39.433+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:47:39.432+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:47:39.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 4.445 seconds
+[2024-05-15T14:48:10.359+0000] {processor.py:161} INFO - Started process (PID=9661) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:48:10.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:48:10.363+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:48:10.363+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:48:12.546+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:48:12.546+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:48:12.547+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:48:12.999+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:48:13.047+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:48:13.045+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:48:13.095+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:48:13.094+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:48:13.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.832 seconds
+[2024-05-15T14:48:43.411+0000] {processor.py:161} INFO - Started process (PID=9676) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:48:43.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:48:43.414+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:48:43.413+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:48:45.133+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:48:45.134+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:48:45.134+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:48:45.390+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:48:45.422+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:48:45.421+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:48:45.753+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:48:45.753+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:48:45.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.401 seconds
+[2024-05-15T14:49:16.149+0000] {processor.py:161} INFO - Started process (PID=9692) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:49:16.151+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:49:16.152+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:49:16.152+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:49:17.751+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:49:17.752+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:49:17.752+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:49:18.283+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:49:18.313+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:49:18.313+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:49:18.339+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:49:18.338+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:49:18.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.220 seconds
+[2024-05-15T14:49:49.035+0000] {processor.py:161} INFO - Started process (PID=9707) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:49:49.038+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:49:49.039+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:49:49.039+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:49:50.802+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:49:50.802+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:49:50.802+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:49:51.066+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:49:51.367+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:49:51.366+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:49:51.403+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:49:51.402+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:49:51.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.399 seconds
+[2024-05-15T14:50:22.036+0000] {processor.py:161} INFO - Started process (PID=9722) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:50:22.041+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:50:22.043+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:50:22.042+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:50:24.140+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:50:24.141+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:50:24.141+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:50:24.404+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:50:24.436+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:50:24.435+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:50:24.740+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:50:24.739+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:50:24.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.743 seconds
+[2024-05-15T14:50:54.834+0000] {processor.py:161} INFO - Started process (PID=9736) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:50:54.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:50:54.838+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:50:54.838+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:50:58.138+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:50:58.139+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:50:58.139+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:50:58.694+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:50:58.726+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:50:58.725+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:50:58.752+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:50:58.752+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:50:58.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 3.948 seconds
+[2024-05-15T14:51:29.198+0000] {processor.py:161} INFO - Started process (PID=9753) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:51:29.200+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:51:29.202+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:51:29.201+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:51:31.979+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:51:31.980+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:51:31.980+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:51:32.413+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:51:32.848+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:51:32.847+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:51:32.889+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:51:32.889+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:51:32.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 3.736 seconds
+[2024-05-15T14:52:03.891+0000] {processor.py:161} INFO - Started process (PID=9773) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:52:03.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:52:03.897+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:52:03.896+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:52:07.868+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:52:07.869+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:52:07.869+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:52:08.390+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:52:08.440+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:52:08.439+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:52:08.858+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:52:08.858+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:52:08.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 5.011 seconds
+[2024-05-15T14:52:39.150+0000] {processor.py:161} INFO - Started process (PID=9790) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:52:39.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:52:39.154+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:52:39.153+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:52:41.813+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:52:41.814+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:52:41.815+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:52:42.695+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:52:42.741+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:52:42.740+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:52:42.784+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:52:42.784+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:52:42.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 3.681 seconds
+[2024-05-15T14:53:12.915+0000] {processor.py:161} INFO - Started process (PID=9805) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:53:12.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:53:12.919+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:53:12.918+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:53:14.886+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:53:14.887+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:53:14.888+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:53:15.818+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:53:15.865+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:53:15.864+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:53:15.911+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:53:15.911+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:53:15.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 3.044 seconds
+[2024-05-15T14:53:46.571+0000] {processor.py:161} INFO - Started process (PID=9821) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:53:46.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:53:46.574+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:53:46.574+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:53:48.200+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:53:48.201+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:53:48.201+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:53:48.762+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:53:48.797+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:53:48.796+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:53:48.829+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:53:48.829+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:53:48.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.297 seconds
+[2024-05-15T14:54:19.675+0000] {processor.py:161} INFO - Started process (PID=9836) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:54:19.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:54:19.679+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:54:19.678+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:54:21.577+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:54:21.578+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:54:21.578+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:54:22.153+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:54:22.188+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:54:22.187+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:54:22.217+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:54:22.216+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:54:22.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.575 seconds
+[2024-05-15T14:54:52.481+0000] {processor.py:161} INFO - Started process (PID=9851) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:54:52.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:54:52.484+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:54:52.484+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:54:54.203+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:54:54.204+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:54:54.205+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:54:54.766+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:54:54.799+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:54:54.798+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:54:54.830+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:54:54.830+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:54:54.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.379 seconds
+[2024-05-15T14:55:24.997+0000] {processor.py:161} INFO - Started process (PID=9866) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:55:24.999+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:55:25.000+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:55:25.000+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:55:26.662+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:55:26.663+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:55:26.663+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:55:27.221+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:55:27.253+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:55:27.252+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:55:27.283+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:55:27.283+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:55:27.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.319 seconds
+[2024-05-15T14:55:57.767+0000] {processor.py:161} INFO - Started process (PID=9882) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:55:57.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:55:57.770+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:55:57.770+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:55:59.499+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:55:59.499+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:55:59.499+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:56:00.065+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:56:00.097+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:56:00.097+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:56:00.124+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:56:00.123+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:56:00.146+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.386 seconds
+[2024-05-15T14:56:30.559+0000] {processor.py:161} INFO - Started process (PID=9897) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:56:30.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:56:30.562+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:56:30.562+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:56:32.334+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:56:32.335+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:56:32.335+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:56:32.920+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:56:32.950+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:56:32.950+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:56:32.978+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:56:32.977+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:56:32.999+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.448 seconds
+[2024-05-15T14:57:03.391+0000] {processor.py:161} INFO - Started process (PID=9916) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:57:03.393+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:57:03.395+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:57:03.394+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:57:05.985+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:57:05.986+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:57:05.986+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:57:06.550+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:57:06.593+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:57:06.592+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:57:06.626+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:57:06.626+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:57:06.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 3.274 seconds
+[2024-05-15T14:57:37.143+0000] {processor.py:161} INFO - Started process (PID=9931) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:57:37.145+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:57:37.147+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:57:37.146+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:57:38.896+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:57:38.897+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:57:38.897+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:57:39.487+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:57:39.522+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:57:39.521+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:57:39.555+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:57:39.555+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:57:39.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.450 seconds
+[2024-05-15T14:58:09.777+0000] {processor.py:161} INFO - Started process (PID=9946) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:58:09.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:58:09.780+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:58:09.779+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:58:11.784+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:58:11.785+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:58:11.785+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:58:12.349+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:58:12.379+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:58:12.378+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:58:12.405+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:58:12.405+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:58:12.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.658 seconds
+[2024-05-15T14:58:43.170+0000] {processor.py:161} INFO - Started process (PID=9962) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:58:43.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:58:43.174+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:58:43.173+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:58:44.858+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:58:44.859+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:58:44.859+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:58:45.411+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:58:45.443+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:58:45.442+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:58:45.474+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:58:45.474+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:58:45.510+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.347 seconds
+[2024-05-15T14:59:15.749+0000] {processor.py:161} INFO - Started process (PID=9977) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:59:15.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:59:15.754+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:59:15.753+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:59:17.387+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:59:17.388+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:59:17.388+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:59:17.961+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:59:17.991+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:59:17.990+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:59:18.016+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:59:18.016+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:59:18.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.296 seconds
+[2024-05-15T14:59:48.683+0000] {processor.py:161} INFO - Started process (PID=9992) to work on /opt/airflow/dags/predict.py
+[2024-05-15T14:59:48.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T14:59:48.686+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:59:48.685+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T14:59:50.426+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:59:50.427+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T14:59:50.427+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T14:59:50.954+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T14:59:50.985+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:59:50.984+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T14:59:51.013+0000] {logging_mixin.py:188} INFO - [2024-05-15T14:59:51.012+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T14:59:51.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.360 seconds
+[2024-05-15T15:00:21.320+0000] {processor.py:161} INFO - Started process (PID=10007) to work on /opt/airflow/dags/predict.py
+[2024-05-15T15:00:21.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T15:00:21.323+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:00:21.322+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T15:00:23.194+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:00:23.195+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T15:00:23.195+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:00:23.765+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T15:00:23.797+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:00:23.796+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T15:00:23.824+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:00:23.823+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T15:00:23.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.540 seconds
+[2024-05-15T15:00:54.288+0000] {processor.py:161} INFO - Started process (PID=10022) to work on /opt/airflow/dags/predict.py
+[2024-05-15T15:00:54.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T15:00:54.303+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:00:54.302+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T15:00:59.360+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:00:59.361+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T15:00:59.361+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:00:59.910+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T15:00:59.946+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:00:59.945+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T15:00:59.977+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:00:59.976+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T15:01:00.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 5.738 seconds
+[2024-05-15T15:01:30.318+0000] {processor.py:161} INFO - Started process (PID=10039) to work on /opt/airflow/dags/predict.py
+[2024-05-15T15:01:30.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T15:01:30.343+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:01:30.342+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T15:01:35.539+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:01:35.540+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T15:01:35.541+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:01:37.635+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T15:01:37.722+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:01:37.721+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T15:01:37.800+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:01:37.800+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T15:01:37.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 7.561 seconds
+[2024-05-15T15:02:08.030+0000] {processor.py:161} INFO - Started process (PID=10059) to work on /opt/airflow/dags/predict.py
+[2024-05-15T15:02:08.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T15:02:08.054+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:02:08.053+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T15:02:14.236+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:02:14.237+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T15:02:14.237+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:02:15.851+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T15:02:15.915+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:02:15.914+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T15:02:15.963+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:02:15.962+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T15:02:16.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 8.038 seconds
+[2024-05-15T15:02:46.175+0000] {processor.py:161} INFO - Started process (PID=10077) to work on /opt/airflow/dags/predict.py
+[2024-05-15T15:02:46.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T15:02:46.178+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:02:46.177+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T15:02:49.753+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:02:49.753+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T15:02:49.754+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:02:51.070+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T15:02:51.170+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:02:51.169+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T15:02:51.279+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:02:51.278+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T15:02:51.394+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 5.226 seconds
+[2024-05-15T15:03:21.694+0000] {processor.py:161} INFO - Started process (PID=10093) to work on /opt/airflow/dags/predict.py
+[2024-05-15T15:03:21.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T15:03:21.697+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:03:21.697+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T15:03:23.445+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:03:23.446+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T15:03:23.446+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:03:24.114+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T15:03:24.157+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:03:24.156+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T15:03:24.198+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:03:24.198+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T15:03:24.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.541 seconds
+[2024-05-15T15:03:55.151+0000] {processor.py:161} INFO - Started process (PID=10109) to work on /opt/airflow/dags/predict.py
+[2024-05-15T15:03:55.156+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T15:03:55.163+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:03:55.160+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T15:03:57.329+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:03:57.330+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T15:03:57.330+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:03:57.888+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T15:03:57.922+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:03:57.921+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T15:03:57.954+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:03:57.953+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T15:03:57.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.843 seconds
+[2024-05-15T15:04:28.442+0000] {processor.py:161} INFO - Started process (PID=10124) to work on /opt/airflow/dags/predict.py
+[2024-05-15T15:04:28.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T15:04:28.445+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:04:28.444+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T15:04:30.153+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:04:30.154+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T15:04:30.154+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:04:30.728+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T15:04:30.762+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:04:30.762+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T15:04:30.793+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:04:30.793+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T15:04:30.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.381 seconds
+[2024-05-15T15:05:01.080+0000] {processor.py:161} INFO - Started process (PID=10140) to work on /opt/airflow/dags/predict.py
+[2024-05-15T15:05:01.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T15:05:01.083+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:05:01.083+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T15:05:02.799+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:05:02.799+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T15:05:02.800+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:05:03.363+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T15:05:03.399+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:05:03.398+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T15:05:03.470+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:05:03.469+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T15:05:03.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.434 seconds
+[2024-05-15T15:05:34.043+0000] {processor.py:161} INFO - Started process (PID=10160) to work on /opt/airflow/dags/predict.py
+[2024-05-15T15:05:34.045+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T15:05:34.046+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:05:34.045+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T15:05:35.696+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:05:35.696+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T15:05:35.697+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:05:36.242+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T15:05:36.273+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:05:36.272+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T15:05:36.299+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:05:36.299+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T15:05:36.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.285 seconds
+[2024-05-15T15:06:06.583+0000] {processor.py:161} INFO - Started process (PID=10175) to work on /opt/airflow/dags/predict.py
+[2024-05-15T15:06:06.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T15:06:06.587+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:06:06.586+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T15:06:08.220+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:06:08.221+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T15:06:08.221+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:06:08.779+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T15:06:08.812+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:06:08.811+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T15:06:08.841+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:06:08.841+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T15:06:08.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.291 seconds
+[2024-05-15T15:06:38.999+0000] {processor.py:161} INFO - Started process (PID=10191) to work on /opt/airflow/dags/predict.py
+[2024-05-15T15:06:39.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T15:06:39.002+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:06:39.002+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T15:06:40.756+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:06:40.757+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T15:06:40.757+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:06:41.298+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T15:06:41.329+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:06:41.328+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T15:06:41.355+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:06:41.355+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T15:06:41.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.387 seconds
+[2024-05-15T15:07:11.480+0000] {processor.py:161} INFO - Started process (PID=10207) to work on /opt/airflow/dags/predict.py
+[2024-05-15T15:07:11.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T15:07:11.483+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:07:11.482+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T15:07:13.207+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:07:13.208+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T15:07:13.208+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:07:13.764+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T15:07:13.799+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:07:13.799+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T15:07:13.827+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:07:13.827+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T15:07:13.850+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.377 seconds
+[2024-05-15T15:07:43.959+0000] {processor.py:161} INFO - Started process (PID=10222) to work on /opt/airflow/dags/predict.py
+[2024-05-15T15:07:43.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T15:07:43.963+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:07:43.962+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T15:07:45.904+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:07:45.905+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T15:07:45.905+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:07:46.438+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T15:07:46.469+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:07:46.469+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T15:07:46.498+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:07:46.498+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T15:07:46.531+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.581 seconds
+[2024-05-15T15:08:16.864+0000] {processor.py:161} INFO - Started process (PID=10237) to work on /opt/airflow/dags/predict.py
+[2024-05-15T15:08:16.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T15:08:16.875+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:08:16.874+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T15:08:21.593+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:08:21.594+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T15:08:21.594+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:08:22.295+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T15:08:22.329+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:08:22.328+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T15:08:22.359+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:08:22.359+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T15:08:22.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 5.564 seconds
+[2024-05-15T15:08:52.561+0000] {processor.py:161} INFO - Started process (PID=10254) to work on /opt/airflow/dags/predict.py
+[2024-05-15T15:08:52.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2024-05-15T15:08:52.575+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:08:52.574+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2024-05-15T15:08:57.446+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:08:57.447+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T15:08:57.447+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T15:08:58.920+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict.py
+[2024-05-15T15:08:59.005+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:08:59.001+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T15:08:59.064+0000] {logging_mixin.py:188} INFO - [2024-05-15T15:08:59.064+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T15:08:59.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 6.612 seconds
